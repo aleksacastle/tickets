@@ -16,4 +16,9 @@ RSpec.describe 'user roles' do
     visit buses_path
     expect(current_path).to eq(buses_path)
   end
+
+  it "does not allow user to see index page if not logged-in" do
+    visit buses_path
+    expect(current_path).to eq(buses_path)
+  end
 end
