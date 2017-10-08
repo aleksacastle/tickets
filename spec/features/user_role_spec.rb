@@ -21,4 +21,9 @@ RSpec.describe 'user roles' do
     visit buses_path
     expect(current_path).to eq(buses_path)
   end
+
+  it "does not see create bus button" do
+    visit buses_path
+    expect(current_path).to_not have_link('Add bus')
+  end
 end
