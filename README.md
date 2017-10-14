@@ -2,7 +2,8 @@
 
 [![Build Status](https://travis-ci.org/aleksacastle/tickets.svg?branch=master)](https://travis-ci.org/aleksacastle/tickets)
 
-<h4>TDD practice using "Rails 4 test prescriptions. Build a healthy codebase." book from "The pragmatic programmer" series</h4>
+<h4>TDD practice using "Rails 4 test prescriptions. Build a healthy codebase." book from "The pragmatic programmer" series</h4><p>
+<h4>Refactoring practice with "Fearless refactoring rails controllers" by Andrzej Krzywda</h4>
 
 <h3>Stories</h3>
 
